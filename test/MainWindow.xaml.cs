@@ -24,6 +24,7 @@ namespace test
         {
             InitializeComponent();
             DataContext = user10Entities._context.Table_2.ToList();
+            DataContext = user10Entities._context.Table_1.ToList();
         }
     }
 }
